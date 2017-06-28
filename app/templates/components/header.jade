@@ -1,0 +1,93 @@
+div#header_container
+    div#header_navbar
+        div#header_logo
+        ul.header_list
+            li
+                a(href="#/" target="_self") Головна
+            li
+                a(href="#/catalogue" target="_self") Каталог
+            li
+                a(href="#/main.html#Shares" target="_self") Акції
+            li
+                a(href="#/main.html#delivery" target="_self") Доставка
+            li
+                a(href="#footer.html#contacts" target="_self") Контакти
+         div#nav_log
+             a.humburger(href='#' ng-click='my.openNav()')
+                img(src='../img/burger.png')
+            input#log(type='button' value='Увійти' ng-click='my.sign_in()')
+     div#sub_navbar
+         div#search
+            div#searhimg
+                input#nav_search(type='text' placeholder='ПОШУК' ng-model='my.search')
+         div#place
+            div#placecont
+                div#placeimg
+                p.sub_nav_text ТВІЙ АДРЕС
+                input.triangleimg(type='button')
+         div#basket
+             a(href='#/basket' ng-click='my.basket()')
+                div#basketcont
+                    div#basketimg
+                    p.sub_nav_text {{my.CountGood}}
+                    input.triangleimg(type='button' )
+
+
+
+        //модалка рег. нового користувача
+div#mySidenav.sidenav
+    img.closebtn(src='../img/cancel.png' ng-click='my.closeNav()')
+    a(href='#/') Головна
+    a(href='#/catalogue') Каталог
+    a(href='#/main.html#Shares') Акції
+    a(href='#main.html#delivery') Доставка
+    a(href='#footer.html#contacts') Контакти
+
+
+div.modal_registration(ng-show='my.show_registration')
+    h2 Створити акаунт
+    img(src='../img/shape-4.png')
+    input.registr_input(type='text' placeholder='Ім’я' ng-model='my.user.name')
+    input.registr_input(type='text' placeholder='Прізвище' ng-model='my.user.lastname')
+    div.selected-field
+        select.registation_select(ng-model='my.user.selectdays' ng-options='x for x in my.days')
+            option(value='') дд
+        select.registation_select(ng-model='my.user.selectmonth' ng-options='x for x in my.month')
+            option(value='') мм
+        select.registation_select(ng-model='my.user.selectyear' ng-options='x for x in my.year')
+            option(value='') рррр
+    input.registr_input(type='text' placeholder='E-mail' ng-model='my.user.email')
+    input.registr_input(type='password' placeholder='password' ng-model='my.user.password')
+    label
+        input(type='radio')
+        |I'm 21+ years of age and agree to the terms of service.
+    input.registr_input(type='button' value='Створити аккаунт ' ng-click='my.signup_new_user(my.user)')
+    div.registr_sign_field
+        p Вже є акаунт? &nbsp;&nbsp;&nbsp;
+        input.registr_sign(type='button' value='Вхід тут.' ng-click='my.sign_in()')
+    p Продовжуючи, ви погоджуєтеся з нашими умовами
+        br
+        |&nbsp;&nbsp;&nbsp;&nbsp; використання та політикою конфіденційності.
+
+//модалка входу
+div.signin_box(ng-show='my.show_sign_in')
+    h2 Створити акаунт
+    img(src='../img/shape-4-copy.png')
+    input.registr_input(type='text' placeholder='E-mail' ng-model='my.users.email ')
+    input.registr_input(type='password' placeholder='password' ng-model='my.users.password ')
+    input.forgotpass(type='button' value='Forgot password?')
+    input.button_signin(type='button' value='У В І Й Т И' ng-click='my.log_function(my.users)')
+    div.signin_box_part2
+        p Ще не зареєстровані?&nbsp;&nbsp;
+        input.registr_sign(type='button' value='Зареєструватися тут.' ng-click='my.sign_up()')
+
+
+div.search
+    div.search_part1(ng-repeat='goods in my.goods| filter:my.search |filter:my.search1')
+        img(ng-src='{{goods.image}}')
+        div.search_part1_1
+            h4 {{goods.name}}
+            h6 {{goods.volume}}ml
+            p {{goods.description}}
+        div.search_part1_2
+            p.price_goods {{goods.price}} грн

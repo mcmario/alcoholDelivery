@@ -1,0 +1,33 @@
+<div><div class="basket_conteiner"><h3>Твоя корзина</h3><img src="../img/shape-2.png" class="basket_img2"/><div class="basket_part1"><div class="basket_part1_section_left"><div class="basket_part1_section_left_s"><div ng-repeat="Orders in my.check" class="basket_part1_section_left_order"><img ng-src="{{Orders.image}}" class="basket_img"/><h4>{{Orders.name}}<p>{{Orders.volume}}</p></h4><input type="button" ng-click="my.minus1(Orders)" class="minus"/><p class="text_butt">{{Orders.count}}</p><input type="button" ng-click="my.plus1(Orders)" class="plus"/><p class="price">{{Orders.price}} грн</p><img src="../img/cancel.png" ng-click="my.delete_order(Orders)" ng-model="my.CountGood" class="basket_cancel"/></div></div><div class="basket_part1_section_left_e"><p class="together">Разом</p><P class="price2">{{my.TotalPrice}} грн</P></div></div><div class="basket_part1_section_delyvery"><div class="basket_part1_section_delyvery_header"><img src="../img/delivery-truck.png"/><h4>Lorem ipsum dolor sit amet</h4></div><div class="basket_part1_section_delyvery_content"><p>Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Aenean commodo ligula
+eget dolor. Aenean massa.
+Cum sociis natoque penatibus et magnis
+dis parturient montes, nascetur ridiculus
+mus. Donec quam felis, ultricies nec,
+pellentesque eu, pretium quis, sem.
+Nulla consequat massa quis enim.
+Donec pede justo, fringilla vel, aliquet
+nec, vulputate eget, arcu. In enim justo,
+rhoncus ut, imperdiet a, venenatis vitae,
+justo. Nullam dictum felis eu pede mollis
+pretium. Integer tincidunt. Cras dapibus.
+Vivamus elementum semper nisi.
+Aenean vulputate eleifend tellus.
+Aenean leo ligula, porttitor eu, consequat
+vitae, eleifend ac, enim. Aliquam lorem
+ante, dapibus in, viverra quis, feugiat
+a, tellus. Phasellus viverra nulla ut
+metus varius laoreet. Quisque rutrum.
+Aenean imperdiet. Etiam ultricies nisi
+vel augue. Curabitur ullamcorper
+ultricies nisi.Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa.
+Cum sociis natoque penatibus et magnis
+dis parturient montes, nascetur
+ridiculus mus. Donec quam felis,
+ultricies nec, pellentesque eu,
+pretium quis, sem. Nulla consequat
+massa quis enim. Donec pede justo,
+fringilla vel, aliquet nec, vulputate
+eget, arcu. In enim justo, rhoncus ut.</p></div></div></div><h3>Деталі оплати</h3><img src="../img/shape-2.png" class="basket_img2"/><div class="basket_details"><input type="text" placeholder="Ім’я" ng-model="my.orderDeteils.name" class="basket_input"/><input type="text" placeholder="Прізвище" ng-model="my.orderDeteils.lastname" class="basket_input"/><input type="text" placeholder="+380 999 99 99 99" ng-model="my.orderDeteils.phone" class="basket_input"/><input type="text" placeholder="E-mail" ng-model="my.orderDeteils.mail" class="basket_input"/><input type="text" placeholder="Вулиця" ng-model="my.orderDeteils.street" class="basket_input"/><input type="text" placeholder="Будинок" ng-model="my.orderDeteils.house" class="basket_input small"/><input type="text" placeholder="Квартира" ng-model="my.orderDeteils.flat" class="basket_input small"/><input type="text" placeholder="Під’їзд" ng-model="my.orderDeteils.entrance" class="basket_input small"/><input type="text" placeholder="Поверх" ng-model="my.orderDeteils.floor" class="basket_input small"/><textarea type="textarea" placeholder="Додаткові побажання" ng-model="my.orderDeteils.comments" class="basket_input textarea"></textarea><input type="button" value="підтвердити замовлення" ng-click="my.Confirm(my.orderDeteils)" class="basket_button"/></div></div></div>

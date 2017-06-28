@@ -1,0 +1,312 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#footer{
+  margin-top: -50px;
+  padding-top: 80px;
+  width: 100%;
+  height: 450px;
+  max-width: 1920px;
+  //background: url('../img/footer.jpg') no-repeat center;
+  background-color: #272e31;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #f6f6f6;
+  line-height: 30px;
+  font-family:$font_family;
+  font-size: 15pt;
+  @include tablet{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  @include pc_1024{
+    font-size: 12pt;
+  }
+  h3{
+
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    @include tablet{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+    }
+  }
+  li{
+    line-height: 24px;
+    padding-bottom: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: #f6f6f6;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  #footer_section1{
+    //padding-left: 50px;
+    width: 26%;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: center;
+    @include tablet{
+      display: none;
+    }
+
+    ul{
+      padding-top: 30px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    li{
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      text-transform: uppercase;
+      width: 200px;
+      text-align: center;
+
+    }
+    li:hover{
+      border-bottom: 1px solid #ffffff;
+      border-top: 1px solid #ffffff;
+      background: url('../img/rectangle-19-copy-3.png') no-repeat center;
+    }
+    a:hover{
+      color: #30f4ab;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+    .footer_section1_logo{
+      background: url('../img/2-layers2.png') no-repeat center;
+      width: 274px;
+      height: 91px;
+    }
+
+  }
+
+
+
+  #footer_section2{
+    width: 34%;
+    padding-left: 30px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    @include tablet{
+      .footer_section1_logo2{
+        display: none;
+        @include tablet{
+          display: block;
+          background: url('../img/footer_logo.png') no-repeat center;
+          width: 192px;
+          height: 51px;
+        }
+      }
+    }
+    .footer_section2_head{
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      text-transform: uppercase;
+      @include tablet{
+        padding-top: 20px;
+        line-height: 36px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .footer_section2_block{
+      padding-top: 20px;
+      p{
+        font-size: 20px;
+        line-height: 26px;
+        @include tablet{
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .footer_section2_block_contacts{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      p{
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 33px;
+        @include tablet{
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+    }
+
+
+  }
+  #footer_section3{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+
+
+    .footer_section3_input{
+     // background: url('../img/newsletter.png') no-repeat center;
+      height: 52px;
+      max-width: 525px;
+      display: flex;
+      justify-content: flex-start;
+      @include tablet{
+        order: 3;
+      }
+      @include pc_1024{
+        width: 425px;
+      }
+    }
+
+  }
+  .footer_section3_input1{
+      height: 52px;
+      //max-width: 370px;
+      //background: url('../img/rounded.png') no-repeat center;
+      //background-size: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    .foooter_input{
+      @include pc_1024{
+        width: 250px;
+      }
+      height: 52px;
+      width: 370px;
+      border: none;
+      //background: transparent;
+      color:#f6f6f6;
+      font-size:15pt ;
+      padding-left: 20px;
+      border-radius: 10px 0 0 10px;
+      background-color: #13181b;
+      @include tablet{
+        width: 213px;
+        height: 37px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+
+
+    }
+  .footer_section3_text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    @include tablet{
+      order: 2;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 32px;
+    }
+  }
+  .footer_section3_input2{
+    height: 52px;
+    //max-width: 155px;
+    //background: url('../img/rounded2.png') no-repeat center;
+    //border-radius: 0 10px 10px 0;
+    //background-color: #30f4ab;
+
+    .foooter_button{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      text-transform: uppercase;
+      border-radius: 0 10px 10px 0;
+      background-color: #30f4ab;
+      height: 52px;
+      width: 155px;
+      color: #f6f6f6;
+      @include tablet{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 110px;
+        height: 37px;
+      }
+
+    }
+  }
+
+  .footer_section3_connect{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 50px;
+    @include tablet{
+      order: 4;
+    }
+  }
+
+  .footerSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .footerSocial_link1{
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: url('../img/vk.png') no-repeat center;
+  }
+  .footerSocial_link2{
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: url('../img/facebook.png') no-repeat center;
+  }
+  .footerSocial_link3{
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: url('../img/google.png') no-repeat center;
+  }
+
+
+}
+
+#footer_end{
+  height: 55px;
+  width: 100%;
+  max-width: 1920px;
+  background: #060606;
+  margin-top: -43px;
+  font-family: $font_family;
+  color: #f6f6f6;
+  font-size: 20pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include tablet{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}

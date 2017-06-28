@@ -1,0 +1,326 @@
+.basket_conteiner {
+  display: flex;
+  flex-direction: column;
+  background: #0b1013;
+  max-width: 1920px;
+  padding-bottom:100px;
+  color: #f6f6f6;
+  padding-top: 70px;
+  font-family: $font_family;
+  .basket_img2{
+    height: auto;
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    @include tablet{
+      padding-bottom: 20px;
+    }
+  }
+
+  h3 {
+    color: #f6f6f6;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    @include tablet{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 11px;
+      margin-left: -50px;
+    }
+  }
+  .basket_part1{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    @include tablet{
+      margin-top: 10px;
+      padding-bottom: 50px;
+    }
+  }
+  .basket_part1_section_left{
+    flex-basis: 60%;
+    margin-right: 20px;
+  }
+
+  .basket_part1_section_left_s {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .basket_part1_section_left_order {
+    max-width: 1132px;
+    height: 147px;
+    border: 1px solid #f6f6f6;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    @include tablet{
+      width: 428px;
+      height: 70px;
+      padding-left: 10px;
+    }
+    img{
+      max-width: 100%;
+      max-height: 80%;
+    }
+    h4{
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      //flex-grow: 1;
+      width: 30%;
+      @include tablet{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+
+      }
+    }
+
+    p{
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      @include tablet{
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 11px;
+      }
+    }
+
+    .price{
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 24px;
+      text-transform: uppercase;
+      width: 22%;
+      align-self: center;
+      @include tablet{
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 11px;
+      }
+    }
+    .minus {
+      height: 25px;
+      width: 25px;
+      background: transparent;
+      border: 0px;
+      background: url('../img/minus.png') no-repeat center;
+      @include tablet{
+        width: 11px;
+        height: 12px;
+      }
+
+    }
+    .plus {
+      height: 25px;
+      width: 25px;
+      background: transparent;
+      border: 0px;
+      background: url('../img/plus.png') no-repeat center;
+      @include tablet{
+        width: 11px;
+        height: 12px;
+        margin-right: 50px;
+      }
+
+    }
+    .text_butt{
+      width: 6px;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 57px;
+      @include tablet{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 27px;
+      }
+    }
+    .basket_cancel{
+      align-self: flex-start;
+      justify-content: flex-end;
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+  }
+  //.basket_part1_section_left_end{
+  //  display: flex;
+  //  align-items: flex-end;
+  //  max-width: 477px;
+  //
+  //}
+  .basket_part1_section_left_e{
+    align-items: flex-end;
+    max-width: 477px;
+    height: 75px;
+    border: 1px solid #30f4ab;
+    background-color: #303030;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    @include tablet{
+      width: 251px;
+      height: 36px;
+    }
+
+    .price2{
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 24px;
+      text-transform: uppercase;
+      @include tablet{
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 11px;
+      }
+    }
+    .together{
+      color: #30f4ab;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      @include tablet{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 11px;
+      }
+    }
+  }
+
+
+  .basket_part1_section_delyvery{
+    width: 536px;
+    border: 1px solid #f6f6f6;
+    background-color: #f6f6f6;
+    padding: 15px;
+    flex-basis: 40%;
+    @include tablet{
+      width: 231px;
+      margin-right: 20px;
+    }
+
+
+    h4{
+      color: #0b1013;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 24px;
+      @include tablet{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 11px;
+      }
+    }
+    .basket_part1_section_delyvery_header{
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+    .basket_part1_section_delyvery_content{
+      color: #0b1013;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      @include tablet{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+      }
+    }
+  }
+  .basket_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .basket_input{
+    color: #f6f6f6;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 24px;
+    max-width: 646px;
+    flex-basis: 45%;
+    height: 71px;
+    border: 1px solid #f6f6f6;
+    background-color: #303030;
+    margin: 50px 20px 0px 0px;
+    @include tablet{
+      width: 306px;
+      height: 34px;
+      color: #f6f6f6;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 11px;
+      margin: 20px 10px 0px 0px;
+    }
+  }
+  .small{
+    flex-basis: 5%;
+    width: 143px;
+    @include pc_1024{
+      width: 110px;
+    }
+    @include tablet{
+      width: 75px;
+      height: 34px;
+      margin-right: 23px;
+    }
+  }
+  .textarea{
+    height: 130px;
+    flex-basis: 68%;
+    max-width: 1920px;
+    @include pc_1024{
+      flex-basis: 92%;
+    }
+    @include tablet{
+      width: 506px;
+      height: 73px;
+
+    }
+  }
+  .basket_button{
+    flex-basis: 100%;
+    color: #30f4ab;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: 1px solid #30f4ab;
+    background-color: #303030;
+    height: 71px;
+    max-width: 635px;
+    margin: 50px 20px 0px 0px;
+    @include tablet{
+      max-width: 254px;
+      height: 34px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 11px;
+      margin-top: 10px;
+    }
+  }
+
+
+
+
+
+
+}

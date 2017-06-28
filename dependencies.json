@@ -1,0 +1,16 @@
+{
+  "js":[
+    "./node_modules/jquery/dist/jquery.js",
+    "./app/js/app.js",
+    "./app/js/controllers/myCtrl.js",
+    "./app/js/userServices/userServices.js",
+    "./app/js/main.js",
+    "./app/js/second.js"
+  ],
+  "css":[
+
+  ],
+  "fonts":[
+
+  ]
+}

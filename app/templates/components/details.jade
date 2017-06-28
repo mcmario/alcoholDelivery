@@ -1,0 +1,33 @@
+div.conteiner_details
+    h3 HOME / kategory1 / Moët & Chandon Imperial Champagne
+    div.details
+        div.details_img
+            img(ng-src='{{my.detorder.image}}')
+        div.details_content
+            h1 {{my.detorder.name}}
+            p {{my.detorder.description}}
+            div.details_description
+                div.details_description_part
+                    p TYPE
+                    p.part_text {{my.detorder.category}}
+                div.details_description_part
+                    p Brand
+                    p.part_text {{my.detorder.brand}}
+                div.details_description_part
+                    p COUNTRY
+                    p.part_text {{my.detorder.country}}
+                div.details_description_part
+                    p APPELLATION
+                    p.part_text Imperial County
+                div.details_description_part
+                    p VARIETAL
+                    p.part_text Champagne
+
+            div.details_input
+                div.details_input-left
+                    input.minus(type='button' ng-click='my.minus2(my.detorder)')
+                    p.text_butt {{my.detorder.count}}
+                    input.plus(type='button' ng-click='my.plus2(my.detorder)')
+                p.price {{my.detorder.price*my.detorder.count}} грн
+            input.details_button(type='button' value='в корзину' ng-click='my.ByGoods2()')
+

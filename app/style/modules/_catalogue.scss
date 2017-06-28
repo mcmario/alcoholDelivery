@@ -1,0 +1,312 @@
+.catalogue_conteiner{
+  color: #f6f6f6;
+  font-family:$font_family;
+  background-color:#0b1013;
+  max-width: 1920px;
+  padding-bottom: 50px;
+  //height: 3145px;
+  .catalog_img1{
+    padding-left: 100px;
+    max-width: 1718px;
+    @include tablet{
+      padding-left: 30px;
+    }
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    @include tablet{
+      max-width: 40%;
+      padding-left: 30px;
+    }
+  }
+  h2{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    @include tablet{
+      padding-left: 30px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-bottom: 0px;
+    }
+  }
+  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    @include tablet{
+      padding-left: 30px;
+      margin-top: -5px;
+    }
+
+
+  }
+  li{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 30px;
+    @include tablet{
+      padding-left: 40px;
+    }
+
+
+  }
+  .list_img{
+    padding-left: 30px;
+  }
+  a{
+    color:#f6f6f6;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    @include tablet{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+
+    }
+  }
+  .catalogue.box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    @include  tablet{
+      padding-top: 30px;
+    }
+  }
+  .catalogue_filter{
+    @include  pc_1024{
+      font-size: 18px;
+      line-height: 20px;
+    }
+    @include tablet{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      flex-basis: 500px;
+      padding-left: 30px;
+    }
+    flex-basis: 330px;
+    padding-left: 100px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    .filter_hide{
+      background: transparent;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 24px;
+      border:none;
+      color: #f6f6f6;
+      @include tablet{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+
+    .catalogue_filter_head{
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+      border-right: 1px solid #3c3c3c;
+      border-bottom: 1px solid #3c3c3c;
+      height: 65px;
+      p {
+        padding-left: 20px;
+      }
+    }
+
+    .catalogue_filter_sort{
+      height: 185px;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #3c3c3c;
+      border-bottom: 1px solid #3c3c3c;
+
+      .catalogue_filter_sort_part1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+          flex-basis: 70%;
+        }
+      }
+      .catalogue_filter_sort_check{
+        display: flex;
+        flex-direction: column;
+
+      }
+    }
+
+    .catalogue_filter_pice{
+      height: 175px;
+      border-right: 1px solid #3c3c3c;
+      border-bottom: 1px solid #3c3c3c;
+    }
+    .catalogue_filter_price_part1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p{
+        flex-basis: 70%;
+      }
+    }
+
+
+    .catalogue_filter_volume{
+      border-right: 1px solid #3c3c3c;
+      border-bottom: 1px solid #3c3c3c;
+      padding-bottom: 30px;
+    }
+    .catalogue_filter_volume_part1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p{
+        flex-basis: 70%;
+      }
+    }
+    .ckeck{
+      padding-left: 30px;
+      padding-top: 30px;
+    }
+    .radiobox{
+      transform:scale(1.5);
+      opacity:0.9;
+      cursor:pointer;
+      padding-top: 45px;
+    }
+
+
+    }
+
+
+
+
+
+
+  .catalogue_goods{
+   max-width: 1450px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    @include tablet{
+      max-width: 850px;
+    }
+
+
+
+    .catalogue_goods_object{
+      @include pc_1024{
+        width: 255px;
+      }
+      @include tablet{
+        width: 145px;
+        height: 282px;
+        padding-top: 20px;
+        margin-right: 20px;
+
+      }
+
+      width: 260px;
+      height: 433px;
+      border: 1px solid #f6f6f6;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-right: 10px;
+      margin-bottom: 30px;
+      padding-top: 30px;
+      z-index: 95;
+      h4{
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top:20px;
+        @include tablet{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+      p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        @include tablet{
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 11px;
+        }
+
+      }
+      p.price_goods{
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding-top: 15px;
+        @include tablet{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 11px;
+        }
+      }
+    }
+    .to_basket{
+      @include tablet{
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 116px;
+        height: 22px;
+      }
+      visibility: hidden;
+      width: 248px;
+      height: 36px;
+      border-bottom: 1px solid #30f4ab;
+      border-top: 1px solid #30f4ab;
+      border-right: none;
+      border-left: none;
+      background-color: #2a2a2a;
+      color: #30f4ab;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      z-index: 100;
+    }
+    .catalogue_goods_object:hover{
+      border: 2px solid #f6f6f6;
+      background-color: #303030;
+      .to_basket{
+        visibility: visible;
+      }
+
+    }
+
+
+  }
+  .catalogue_goods_paginnation{
+    display: flex;
+    justify-content: center;
+  }
+
+}
