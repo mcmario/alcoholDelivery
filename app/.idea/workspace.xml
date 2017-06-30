@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f70e2ba9-6a54-4fa3-8982-2a8bc22766f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/base/_mixins.scss" afterPath="$PROJECT_DIR$/style/base/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/modules/_basket.scss" afterPath="$PROJECT_DIR$/style/modules/_basket.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/modules/_details.scss" afterPath="$PROJECT_DIR$/style/modules/_details.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/modules/_footer.scss" afterPath="$PROJECT_DIR$/style/modules/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/modules/_header.scss" afterPath="$PROJECT_DIR$/style/modules/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/header.jade" afterPath="$PROJECT_DIR$/templates/components/header.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +38,8 @@
           <file leaf-file-name="details.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/components/details.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +72,8 @@
           <file leaf-file-name="_details.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/modules/_details.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+                <state relative-caret-position="260">
+                  <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -164,7 +158,6 @@
         <option value="$PROJECT_DIR$/style/modules/_modals.scss" />
         <option value="$PROJECT_DIR$/js/userServices/userServices.js" />
         <option value="$PROJECT_DIR$/templates/components/basket.jade" />
-        <option value="$PROJECT_DIR$/templates/components/details.jade" />
         <option value="$PROJECT_DIR$/templates/components/catalogue.jade" />
         <option value="$PROJECT_DIR$/style/modules/_catalogue.scss" />
         <option value="$PROJECT_DIR$/style/modules/_main_home.scss" />
@@ -176,6 +169,7 @@
         <option value="$PROJECT_DIR$/style/modules/_header.scss" />
         <option value="$PROJECT_DIR$/style/modules/_footer.scss" />
         <option value="$PROJECT_DIR$/style/modules/_basket.scss" />
+        <option value="$PROJECT_DIR$/templates/components/details.jade" />
         <option value="$PROJECT_DIR$/style/modules/_details.scss" />
       </list>
     </option>
@@ -487,12 +481,12 @@
       <workItem from="1497629837066" duration="895000" />
       <workItem from="1498630642144" duration="29306000" />
       <workItem from="1498819506647" duration="590000" />
-      <workItem from="1498831721525" duration="9705000" />
+      <workItem from="1498831721525" duration="12355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270319000" />
+    <option name="totallyTimeSpent" value="272969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +498,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14853713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -853,14 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/details.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -869,10 +855,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/details.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/modules/_details.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="260">
+          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding />
         </state>
       </provider>
