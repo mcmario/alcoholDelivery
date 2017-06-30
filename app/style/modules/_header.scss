@@ -50,9 +50,12 @@ body {
   height: 100px;
   background: url('../img/header.jpg') no-repeat center;
   display: flex;
-  @include tablet{
+  @include mobile{
     justify-content: space-between;
   }
+  @include tablet{
+     justify-content: space-between;
+   }
 }
 .header_list{
   list-style: none;
@@ -62,6 +65,9 @@ body {
   padding-left: 40px;
   flex-grow: 5;
   @include tablet{
+    display: none;
+  }
+  @include mobile{
     display: none;
   }
 }
@@ -95,6 +101,12 @@ body {
   background: url('../img/logo.png') no-repeat;
   background-size: 100%;
   align-self: center;
+  @include mobile{
+    width: 126px;
+    height: 42px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
   @include tablet{
     width: 156px;
     height: 52px;
@@ -108,6 +120,10 @@ body {
   justify-content: center;
   align-items: flex-end;
   padding-right: 100px;
+  @include mobile{
+    padding-right: 30px;
+    padding-bottom: 25px;
+  }
   @include tablet{
     padding-right: 30px;
     padding-bottom: 25px;
@@ -115,6 +131,9 @@ body {
   }
   .humburger{
     display: none;
+    @include mobile{
+      display: block;
+    }
     @include tablet{
       display: block;
     }
@@ -135,6 +154,9 @@ body {
   border:1px solid $color_botton;
   display: block;
   align-self: center;
+  @include mobile{
+    display: none;
+  }
   @include tablet{
     display: none;
   }
@@ -145,10 +167,14 @@ body {
   //width: 100%;
   background:$color_sub_navbar;
   display: flex;
+  @include mobile{
+    height: 29px;
+  }
 }
 #search{
-  flex-basis: 40%;
+  width: 40%;
   border-right: 1px solid black;
+
 
 }
 #searhimg{
@@ -159,6 +185,11 @@ body {
   width: 100%;
   height: 50px;
   color:$color_text_sub_navbar;
+  @include mobile{
+    margin-left: 5px;
+    margin-top: 20px;
+    background-size: 15%;
+  }
 
 }
 #nav_search{
@@ -171,11 +202,28 @@ body {
   font-family: $font_family_header;
   font-size: 14pt;
   color:$color_text_sub_navbar;
+  @include mobile{
+    display: none;
+  }
 
+}
+#nav_search2{
+  display: none;
+  @include mobile{
+    display: block;
+    height: 25px;
+    width:80%;
+    margin-left: 10px;
+    margin-top: -20px;
+    background: transparent;
+    border: none;
+    padding-left: 10px;
+
+  }
 }
 #place{
   border-right: 1px solid black;
-  flex-basis: 30%;
+  width: 30%;
 }
 #placecont{
   display: flex;
@@ -188,9 +236,14 @@ body {
   width: 50px;
   height: 50px;
   flex-grow: 1;
+  @include mobile{
+    background-size: 50%;
+    margin-left: 2px;
+    margin-top: 0px;
+  }
 }
 #basket{
-  flex-basis: 30%;
+  width: 30%;
   a{
     text-decoration: none;
   }
@@ -202,6 +255,11 @@ body {
   width: 50px;
   height: 50px;
   flex-grow: 1;
+  @include mobile{
+    background-size: 50%;
+    margin-left: 2px;
+    margin-top: 0px;
+  }
 }
 .triangleimg{
   margin-top: 20px;
@@ -211,6 +269,12 @@ body {
   width: 50px;
   flex-grow: 1;
   border: none;
+  @include mobile{
+    margin-top: 10px;
+    margin-left: 30px;
+    height:25px;
+    width: 25px;
+  }
 
 }
 .sub_nav_text{
@@ -220,6 +284,9 @@ body {
   display: flex;
   align-items: center;
   height: 50px;
+  @include mobile{
+    display: none;
+  }
 }
 #basketcont{
   display: flex;
@@ -233,6 +300,10 @@ body {
   margin-left:10px;
   position: absolute;
   z-index: 99;
+  @include mobile{
+    margin-left: 0px;
+    width: 100%;
+  }
 
 
   .search_part1{
@@ -242,6 +313,10 @@ body {
     img{
       width: 17px;
       height: 57px;
+      @include mobile{
+        width: 15px;
+        height: 53px;
+      }
 
     }
     .search_part1_1 {
@@ -250,6 +325,9 @@ body {
       flex-direction: column;
       justify-content: space-around;
       padding-bottom: 50px;
+      @include mobile{
+        padding-bottom: 100px;
+      }
 
       h4 {
         width: 93px;
@@ -259,6 +337,12 @@ body {
         font-weight: bold;
         line-height: 24px;
         padding-bottom: 10px;
+        @include mobile{
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 24px;
+
+        }
       }
       h6 {
         width: 31px;
@@ -268,6 +352,11 @@ body {
         font-weight: 400;
         line-height: 24px;
         padding-bottom: 20px;
+        @include mobile{
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 24px;
+        }
       }
       p {
         //width: 489px;
@@ -276,6 +365,11 @@ body {
         font-size: 11px;
         font-weight: 400;
         line-height: 15px;
+        @include mobile{
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 12px;
+        }
       }
     }
     .search_part1_2{
@@ -287,6 +381,12 @@ body {
         font-size: 13px;
         font-weight: bold;
         line-height: 24px;
+        @include mobile{
+          width:59px;
+          font-size: 11px;
+          font-weight: bold;
+          line-height: 24px;
+        }
       }
     }
 

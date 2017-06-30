@@ -20,6 +20,7 @@ div#header_container
          div#search
             div#searhimg
                 input#nav_search(type='text' placeholder='ПОШУК' ng-model='my.search')
+                input#nav_search2(type='text'  ng-model='my.search')
          div#place
             div#placecont
                 div#placeimg
@@ -34,7 +35,7 @@ div#header_container
 
 
 
-        //модалка рег. нового користувача
+        //бургер
 div#mySidenav.sidenav
     img.closebtn(src='../img/cancel.png' ng-click='my.closeNav()')
     a(href='#/') Головна
@@ -43,7 +44,7 @@ div#mySidenav.sidenav
     a(href='#main.html#delivery') Доставка
     a(href='#footer.html#contacts') Контакти
 
-
+//модалка рег. нового користувача
 div.modal_registration(ng-show='my.show_registration')
     h2 Створити акаунт
     img(src='../img/shape-4.png')
@@ -81,7 +82,7 @@ div.signin_box(ng-show='my.show_sign_in')
         p Ще не зареєстровані?&nbsp;&nbsp;
         input.registr_sign(type='button' value='Зареєструватися тут.' ng-click='my.sign_up()')
 
-
+//пошук
 div.search
     div.search_part1(ng-repeat='goods in my.goods| filter:my.search |filter:my.search1')
         img(ng-src='{{goods.image}}')

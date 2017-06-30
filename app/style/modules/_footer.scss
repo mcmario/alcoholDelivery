@@ -17,6 +17,9 @@ body {
   line-height: 30px;
   font-family:$font_family;
   font-size: 15pt;
+  @include mobile{
+    padding-top: 0px;
+  }
   @include tablet{
     font-size: 14px;
     font-weight: 400;
@@ -31,6 +34,11 @@ body {
     font-weight: 400;
     line-height: 32px;
     text-transform: uppercase;
+    @include mobile{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+    }
     @include tablet{
       font-size: 18px;
       font-weight: 400;
@@ -57,6 +65,9 @@ body {
     justify-content:flex-start;
     flex-direction: column;
     align-items: center;
+    @include mobile{
+      display: none;
+    }
     @include tablet{
       display: none;
     }
@@ -105,6 +116,9 @@ body {
     display:flex;
     justify-content:flex-start;
     flex-direction: column;
+    @include mobile{
+      display: none;
+    }
     @include tablet{
       .footer_section1_logo2{
         display: none;
@@ -165,6 +179,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     padding-right: 50px;
+    @include mobile{
+      padding: 0;
+      justify-content: center;
+      width: 90%;
+    }
 
 
     .footer_section3_input{
@@ -173,6 +192,9 @@ body {
       max-width: 525px;
       display: flex;
       justify-content: flex-start;
+      @include mobile{
+        order: 3;
+      }
       @include tablet{
         order: 3;
       }
@@ -203,6 +225,14 @@ body {
       padding-left: 20px;
       border-radius: 10px 0 0 10px;
       background-color: #13181b;
+      @include mobile{
+        width: 184px;
+        height: 37px;
+        border-radius: 10px 0 0 10px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+      }
       @include tablet{
         width: 213px;
         height: 37px;
@@ -220,6 +250,12 @@ body {
     line-height: 22px;
     padding-top:10px;
     padding-bottom: 30px;
+    @include mobile{
+      order: 2;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+    }
     @include tablet{
       order: 2;
       font-size: 15px;
@@ -244,6 +280,14 @@ body {
       height: 52px;
       width: 155px;
       color: #f6f6f6;
+      @include mobile{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 84px;
+        height: 37px;
+        border-radius: 0 10px 10px 0;
+      }
       @include tablet{
         font-size: 14px;
         font-weight: 400;
@@ -260,6 +304,9 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     padding-bottom: 50px;
+    @include mobile{
+      order: 4;
+    }
     @include tablet{
       order: 4;
     }
@@ -304,6 +351,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  @include mobile{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
   @include tablet{
     font-size: 16px;
     font-weight: 400;
