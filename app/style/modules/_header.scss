@@ -4,6 +4,7 @@ body {
 }
 #header_container{
   max-width: 1920px;
+position: relative;
 }
 
 .sidenav {
@@ -392,6 +393,18 @@ body {
 
   }
 
+}
+#map{
+  width: 250px;
+  height:200px;
+  position: absolute;
+  left: 41%;
+  z-index: 69;
+  @include mobile{
+    position: absolute;
+    left: 5%;
+    z-index: 69;
+  }
 }
 //корзина
 .basket2{

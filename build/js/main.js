@@ -23,6 +23,7 @@ app.controller('myCtrl', ['UserService', function (UserService) {
     vm.show_registration=false;
     vm.show_sign_in=false;
     vm.show_basket=false;
+    vm.show_map=false;
     vm.year=[];
     vm.selectdays='';
     vm.selectmonth='';
@@ -155,6 +156,9 @@ app.controller('myCtrl', ['UserService', function (UserService) {
     }
     vm.open_basket=function () {
         vm.show_basket=!vm.show_basket;
+    }
+    vm.open_map=function () {
+        vm.show_map=!vm.show_map;
     }
     vm.sign_in = function () {
         vm.show_sign_in=!vm.show_sign_in;
@@ -342,6 +346,9 @@ app.controller('myCtrl', ['UserService', function (UserService) {
 
 
     };
+
+
+
     vm.init();
 }]);
 

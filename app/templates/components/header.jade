@@ -24,12 +24,12 @@ div#header_container
          div#place
             div#placecont
                 div#placeimg
-                p.sub_nav_text ТВІЙ АДРЕС
-                input.triangleimg(type='button')
+                p.sub_nav_text Ми знаходимось тут
+                input.triangleimg(type='button' ng-click='my.open_map()')
          div#basket
-             a(href='#/basket' ng-click='my.basket()')
                 div#basketcont
-                    div#basketimg
+                    a(href='#/basket' ng-click='my.basket()')
+                        div#basketimg
                     p.sub_nav_text {{my.CountGood}}
                     input.triangleimg(type='button' ng-click='my.open_basket()')
 
@@ -118,3 +118,7 @@ div.basket2(ng-show='my.show_basket')
     div.img-butt
         a(href='#/basket' ng-click='my.basket()')
             input.basket2_button_2(type='button' value='Оформити Замовлення' ng-click='my.basket()')
+
+//карта
+div#map(ng-show='my.show_map')
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6124.047176550745!2d24.014676548091657!3d49.80778804250205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97bebd20494f79ff!2sDe+Luxe+Night+club!5e0!3m2!1sru!2sua!4v1499186252377" width="320" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
