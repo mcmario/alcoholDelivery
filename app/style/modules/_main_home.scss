@@ -13,6 +13,11 @@ img{
   background-size: 75%;
   z-index: -2;
   font-family: $font_family;
+  @include mobile{
+    margin-top:-100px;
+    background: none;
+  }
+
 @include tablet{
   background:none;
 }
@@ -25,6 +30,11 @@ img{
     background-size: 100%;
     max-width: 1920px;
     display: flex;
+    @include mobile{
+      background: url('../img/bg-planshet.png') no-repeat center;
+      background-size: 100%;
+      height: 517px;
+    }
     @include tablet{
       background: url('../img/bg-planshet.png') no-repeat center;
       background-size: 100%;
@@ -36,6 +46,9 @@ img{
 
   }
   #bottle{
+    @include mobile{
+      display: none;
+    }
     @include tablet{
       display: none;
     }
@@ -71,6 +84,13 @@ img{
     height: 67px;
     border: 2px solid #30f4ab;
     background: transparent;
+    @include mobile{
+      display: block;
+      width: 207px;
+      height: 54px;
+      margin-top: 340px;
+      margin-left: -600px;
+    }
     @include tablet{
       display: block;
       margin-top: 550px;
@@ -95,6 +115,13 @@ img{
     @include pc_1024{
       padding-top: 100px;
     }
+    @include mobile{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      padding-left: 50px;
+      padding-top: 100px;
+    }
     @include tablet{
       font-size: 30px;
       font-weight: 700;
@@ -116,6 +143,16 @@ img{
       background-size: 100%;
       z-index: -2;
 
+
+    }
+    @include mobile{
+      background: url('../img/bg2.png') repeat-y center;
+      background-size: 100%;
+      z-index: -2;
+      margin-top: -100px;
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
     }
     //height: 1030px;
     display: flex;
@@ -129,6 +166,9 @@ img{
     width: 50%;
     display: flex;
     flex-direction: column;
+    @include mobile{
+      width: 100%;
+    }
     @include tablet{
       margin-right: 60px;
     }
@@ -136,6 +176,12 @@ img{
   #section2_aside1_part1{
     //background: url('../img/breezer.jpg') no-repeat center;
     //flex-grow: 5;
+    @include mobile{
+      margin-left: 10px;
+      img{
+        width: 100%;
+      }
+    }
     @include  tablet{
       margin-left: 10px;
       img{
@@ -159,6 +205,9 @@ img{
     //max-width: 700px;
     margin-left: 50px;
     @include tablet{
+       margin-left: 10px;
+     }
+    @include mobile{
       margin-left: 10px;
     }
 
@@ -167,6 +216,10 @@ img{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30pt;
+    @include mobile{
+      font-size: 20px;
+      line-height: 34px;
+    }
     @include tablet{
       font-size: 30px;
       font-weight: bold;
@@ -176,6 +229,10 @@ img{
   #section2_aside1_part2 p{
     text-transform: uppercase;
     font-size: 16pt;
+    @include mobile{
+      font-size: 12px;
+      line-height:18px;
+    }
     @include tablet{
       font-size: 18px;
       font-weight: bold;
@@ -184,6 +241,9 @@ img{
   }
   #fast_delivery{
     @include tablet{
+      display: none;
+    }
+    @include mobile{
       display: none;
     }
     width: 420px;
@@ -204,6 +264,11 @@ img{
     flex-direction: column;
     margin-top: 90px;
     margin-left: 150px;
+    @include mobile{
+      width: 100%;
+      margin-top: 40px;
+      margin-left: 10px;
+    }
     @include pc_1024{
       margin-left: 100px;
     }
@@ -217,7 +282,12 @@ img{
 
   }
   #section2_aside2_part2{
-
+    @include mobile{
+      margin-right: 10px;
+      img{
+        width: 100%;
+      }
+    }
     @include  tablet{
       margin-left: 0px;
       img{
@@ -234,6 +304,10 @@ img{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30pt;
+    @include mobile{
+      font-size: 20px;
+      line-height: 26px;
+    }
     @include tablet{
       font-size: 30px;
       font-weight: bold;
@@ -243,6 +317,10 @@ img{
   #section2_aside2_part1 p{
     text-transform: uppercase;
     font-size: 16pt;
+    @include mobile{
+      font-size: 12px;
+      line-height:18px;
+    }
     @include tablet{
       font-size: 18px;
       font-weight: bold;

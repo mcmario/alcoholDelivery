@@ -1,5 +1,5 @@
 {
-  "name": "alcohol",
+  "name": "marian",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -27,9 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "bugs": {
     "url": ""
   },
   "homepage": "",
