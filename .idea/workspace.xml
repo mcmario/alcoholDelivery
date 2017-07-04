@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="76">
+              <caret line="111" column="24" lean-forward="false" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file leaf-file-name="_main_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1379">
-              <caret line="285" column="18" lean-forward="false" selection-start-line="285" selection-start-column="18" selection-end-line="285" selection-end-column="18" />
+            <state relative-caret-position="203">
+              <caret line="697" column="26" lean-forward="false" selection-start-line="697" selection-start-column="26" selection-end-line="697" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/style/base/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -76,6 +76,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fast_delivery</find>
+      <find>section3_content_drink1</find>
+      <find>section3_footer.part2</find>
+      <find>section3_content</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,8 +87,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
         <option value="$PROJECT_DIR$/app/style/base/_mixins.scss" />
+        <option value="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
+        <option value="$PROJECT_DIR$/app/templates/components/main.jade" />
       </list>
     </option>
   </component>
@@ -400,12 +404,12 @@
       <updated>1498922216885</updated>
       <workItem from="1498922222135" duration="1112000" />
       <workItem from="1498923533500" duration="735000" />
-      <workItem from="1499155027862" duration="4726000" />
+      <workItem from="1499155027862" duration="13566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6573000" />
+    <option name="totallyTimeSpent" value="15413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,26 +511,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
+    <entry file="file://$PROJECT_DIR$/app/style/base/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1379">
-          <caret line="285" column="18" lean-forward="false" selection-start-line="285" selection-start-column="18" selection-end-line="285" selection-end-column="18" />
+        <state relative-caret-position="203">
+          <caret line="697" column="26" lean-forward="false" selection-start-line="697" selection-start-column="26" selection-end-line="697" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/base/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="76">
+          <caret line="111" column="24" lean-forward="false" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
           <folding />
         </state>
       </provider>

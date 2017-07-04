@@ -337,6 +337,13 @@ img{
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
+    @include mobile{
+      background: url('../img/5-layers.png') no-repeat center;
+      background-size: 120%;
+      margin-top: -310px;
+    }
+
+
 
 
     .section3_header{
@@ -349,6 +356,17 @@ img{
       display: flex;
       justify-content: center;
       padding-top: 35px;
+
+      @include mobile{
+        font-size: 14px;
+        margin-top: 250px;
+      }
+      .down{
+        @include mobile{
+          padding-top: 30px;
+        }
+      }
+
       @include tablet{
         padding-top: 80px;
       }
@@ -368,16 +386,38 @@ img{
       justify-content: space-around;
       align-items: flex-end;
       padding-left: 150px;
+      @include mobile{
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+        padding-left: 10px;
+        margin-top: -130px;
+    }
       @include tablet{
         padding-left: 70px;
         margin-left: 20px;
       }
 
-
+      .section3_content_drink1.close{
+        @include mobile{
+          display: none;
+        }
+      }
 
       .section3_content_drink1{
         flex-grow: 1;
         max-height: 380px;
+
+        @include mobile{
+          max-height: 138px;
+          margin-bottom: 50px;
+          padding: 30px 0px;
+          img{
+            max-width: 50px;
+            max-height: 138px;
+          }
+        }
+
         @include tablet{
           max-height: 300px;
           margin-bottom: 50px;
@@ -386,10 +426,38 @@ img{
 
       }
       .section3_content_drink1.center{
+        @include mobile{
+          img{
+            max-width: 55px;
+            max-height: 150px;
+          }
+        }
         @include tablet{
           margin-bottom: 120px;
         }
       }
+    }
+    .section3_content.part2{
+      @include mobile{
+        margin-top: -420px;
+        padding-bottom: 80px;
+      }
+    }
+    .section3_header.part2{
+      @include mobile{
+        margin-top: -340px;
+      }
+      p{
+        @include mobile{
+          margin-top: 30px;
+        }
+      }
+    }
+    .section3_footer.part2{
+      @include mobile{
+        margin-top: -280px;
+      }
+
     }
     .section3_footer{
       background: url('../img/line2.png') no-repeat center;
@@ -403,6 +471,15 @@ img{
       text-transform: uppercase;
       padding-left: 100px;
       margin-top: -50px;
+      @include mobile{
+        background: url('../img/rectangle-19m.png') no-repeat center;
+        width: 120%;
+        font-size: 12px;
+        line-height: 24px;
+        padding-left: 20px;
+        margin-top: -225px;
+        height: 39px;
+      }
       @include tablet{
         font-size: 14px;
         font-weight: 400;
@@ -414,7 +491,11 @@ img{
         display: block;
         width: 20%;
       }
-
+      p.close{
+        @include mobile{
+          display: none;
+        }
+      }
 
     }
 
@@ -435,6 +516,14 @@ img{
     margin-right: 100px;
 
     justify-content: center;
+    @include  mobile{
+      background: url('../img/about3.png') no-repeat center;
+      background-size: 80%;
+      height: 513px;
+      margin-left: 30px;
+      margin-right: 10px;
+      margin-top: -220px;
+    }
     @include tablet{
       background: url('../img/about3.png') no-repeat center;
       background-size: 80%;
@@ -459,13 +548,22 @@ img{
       //height: 500px;
       background: #343434;
       color: $color_white;
-      font-size: 12px;
+      font-size: 10px;
       font-weight: bold;
-      line-height: 24px;
+      line-height: 18px;
       text-transform: uppercase;
       padding: 60px;
       position: relative;
       z-index: 5;
+      @include mobile{
+        margin-right: 100px;
+        margin-top: -50px;
+        padding: 10px;
+        flex-basis: 100%;
+        width: 520px;
+        height: 359px;
+        background-size: 150%;
+      }
 
       @include tablet{
         margin-left: 50px;
@@ -480,6 +578,12 @@ img{
         height: 243px;
 
         display: none;
+        @include mobile{
+          display: block;
+          position: relative;
+          margin-left: 270px;
+          margin-top: 270px;
+        }
         @include tablet{
           display: block;
           position: relative;
@@ -489,12 +593,20 @@ img{
         }
       }
       //overflow: hidden;
-
+      p.hide{
+        @include mobile{
+          display: none;
+        }
+      }
       p{
         font-size: 18px;
         font-weight: bold;
         line-height: 26px;
         text-transform: uppercase;
+        @include mobile{
+          font-size: 12px;
+          line-height: 18px;
+        }
         @include tablet{
           font-size: 14px;
           font-weight: bold;
@@ -507,6 +619,10 @@ img{
       }
       h2{
         font-size: 24pt;
+        @include mobile{
+          font-size: 17pt;
+          line-height: 30pt;
+        }
         @include tablet{
           font-size: 24pt;
           line-height: 40pt;
@@ -545,6 +661,10 @@ img{
       line-height: 1px;
       text-transform: uppercase;
       padding-bottom: 50px;
+      @include mobile{
+        font-size: 16px;
+        line-height: 18px;
+      }
       @include tablet{
         padding-top: 50px;
         font-size: 24px;
@@ -561,6 +681,10 @@ img{
       flex-direction: row;
       background: url('../img/dotedline.png') no-repeat center;
       background-size: 120%;
+      @include mobile{
+
+        padding: 10px 0px 5px 0px;
+      }
       @include tablet{
         padding: 50px 20px 50px 20px;
       }
@@ -569,9 +693,17 @@ img{
         flex-direction: column;
         justify-content: flex-start;
         padding-right: 30px;
+        @include mobile{
+          padding-right: 5px;
+          flex-wrap: wrap;
+        }
         img {
           max-width: 100%;
           height: auto;
+          @include mobile{
+            max-width: 100%;
+            height: 114px;
+          }
         }
         p {
           color: #e6e6e6;
@@ -579,6 +711,10 @@ img{
           font-weight: 400;
           line-height: 30px;
           text-transform: uppercase;
+          @include mobile{
+            font-size: 12px;
+            line-height: 16px;
+          }
           @include tablet{
             font-size: 10px;
             font-weight: 400;
