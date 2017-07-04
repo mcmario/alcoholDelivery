@@ -393,3 +393,130 @@ body {
   }
 
 }
+//корзина
+.basket2{
+  float: right;
+  clear: both;
+  position: absolute;
+  left: 70%;
+  z-index: 69;
+  border-top: 1px solid black;
+  background: #e6e6e6;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  max-width: 33%;
+  height: auto;
+  @include mobile{
+    max-width: 100%;
+    position: absolute;
+    left: 5%;
+  }
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  .img-butt{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .basket2_button_2{
+    font-size: 14px;
+    color: #25bdcf;
+    font-weight: 400;
+    width: 225px;
+    height: 33px;
+    background: transparent;
+    border:1px solid #25bdcf;
+  }
+  .img_basket_line{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height: 1px;
+  }
+  .img_basket_block{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .img_basket{
+      width: 20px;
+      height: 20px;
+      padding-right: 10px;
+      margin-top: -5px;
+    }
+    h3{
+      color: #25bdcf;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+  .orders{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .basket2_togefer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .basket_order{
+    //display: flex;
+    //justify-content: space-between;
+    h4{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    p{
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .basket2_img{
+      max-width: 40%;
+      height: 80px;
+    }
+  }
+  .basket_order_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .basket2_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .minus2{
+      width: 17px;
+      height: 17px;
+      border: none;
+      margin-top: 10px;
+      background: url('../img/minus2.png') no-repeat;
+      margin-right: 10px;
+    }
+    .plus2{
+      width: 20px;
+      height: 20px;
+      border: none;
+      background: url('../img/plus2.png') no-repeat;
+      margin-top: 1px;
+      margin-left: 10px;
+    }
+    .text_butt2 {
+      font-size: 21px;
+    }
+  }
+  .basket2price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .basket_cancel2{
+      padding-left: 20px;
+      height: 10px;
+      width: 10px;
+    }
+  }
+}

@@ -31,7 +31,7 @@ div#header_container
                 div#basketcont
                     div#basketimg
                     p.sub_nav_text {{my.CountGood}}
-                    input.triangleimg(type='button' )
+                    input.triangleimg(type='button' ng-click='my.open_basket()')
 
 
 
@@ -92,3 +92,29 @@ div.search
             p {{goods.description}}
         div.search_part1_2
             p.price_goods {{goods.price}} грн
+
+//корзина
+div.basket2(ng-show='my.show_basket')
+    div.img_basket_block
+        img.img_basket(src='../img/shopping-purse-icon.png')
+        h3 Корзина
+    div.basket_order(ng-repeat='Orders in my.check')
+        div.orders
+            img.basket2_img(ng-src='{{Orders.image}}')
+            div.basket_order_section
+                h4 {{Orders.name}}
+                p {{Orders.volume}}
+                div.basket2_button
+                    input.minus2(type='button' ng-click='my.minus1(Orders)' )
+                    p.text_butt2 {{Orders.count}}
+                    input.plus2(type='button' ng-click='my.plus1(Orders)' )
+            div.basket2price
+                img.basket_cancel2(src='../img/cancel2.png' ng-click='my.delete_order(Orders)' ng-model='my.CountGood')
+                p.price2 {{Orders.price}} грн
+        img.img_basket_line(src='../img/shape-7-copy.png')
+    div.basket2_togefer
+        p.together2 Разом
+        P.price22 {{my.TotalPrice}} грн
+    div.img-butt
+        a(href='#/basket' ng-click='my.basket()')
+            input.basket2_button_2(type='button' value='Оформити Замовлення' ng-click='my.basket()')

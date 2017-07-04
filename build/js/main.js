@@ -22,6 +22,7 @@ app.controller('myCtrl', ['UserService', function (UserService) {
     vm.country6=false;
     vm.show_registration=false;
     vm.show_sign_in=false;
+    vm.show_basket=false;
     vm.year=[];
     vm.selectdays='';
     vm.selectmonth='';
@@ -151,6 +152,9 @@ app.controller('myCtrl', ['UserService', function (UserService) {
     }
     vm.orderByMe = function(x) {
         vm.myOrderBy = x;
+    }
+    vm.open_basket=function () {
+        vm.show_basket=!vm.show_basket;
     }
     vm.sign_in = function () {
         vm.show_sign_in=!vm.show_sign_in;
