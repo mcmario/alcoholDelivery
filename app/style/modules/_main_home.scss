@@ -640,6 +640,52 @@ img{
 
   }
   #conteiner_section5{
+    @include mobile{
+      margin-top: -50px;
+      margin-bottom: 50px;
+    }
+    .section5_hide{
+      display: none;
+      color: #e6e6e6;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 16px;
+      background: url('../img/dotted2.png') no-repeat center;
+      background-size: 150%;
+      .box1{
+        padding: 20px 0px;
+      }
+      .up{
+        padding-bottom: 10px;
+      }
+      .down{
+        padding-top: 10px;
+      }
+
+      .hideblock{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 45%;
+        padding-bottom: 20px;
+      }
+      .hide2block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 45%;
+      }
+      @include mobile{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+      }
+
+
+    }
     background: #0b1013;
     max-width: 1920px;
     display: flex;
@@ -662,6 +708,8 @@ img{
       text-transform: uppercase;
       padding-bottom: 50px;
       @include mobile{
+        margin-top: -40px;
+        padding-bottom: 20px;
         font-size: 16px;
         line-height: 18px;
       }
@@ -682,7 +730,9 @@ img{
       background: url('../img/dotedline.png') no-repeat center;
       background-size: 120%;
       @include mobile{
-
+        background: url('../img/dotted2.png.png') no-repeat center;
+        background-size: 120%;
+        display: none;
         padding: 10px 0px 5px 0px;
       }
       @include tablet{
