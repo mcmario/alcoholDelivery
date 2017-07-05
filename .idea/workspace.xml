@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6a68784a-bce4-4455-9d14-3e58667043cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_catalogue.scss" afterPath="$PROJECT_DIR$/app/style/modules/_catalogue.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_header.scss" afterPath="$PROJECT_DIR$/app/style/modules/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_main_home.scss" afterPath="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_modals.scss" afterPath="$PROJECT_DIR$/app/style/modules/_modals.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/header.jade" afterPath="$PROJECT_DIR$/app/templates/components/header.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/components/header.html" afterPath="$PROJECT_DIR$/build/components/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.min.css" afterPath="$PROJECT_DIR$/build/css/main.min.css" />
@@ -32,21 +31,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.jade" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <state relative-caret-position="884">
+                  <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.jade" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/components/header.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="87">
-                  <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+                <state relative-caret-position="830">
+                  <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -59,14 +58,14 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/style/modules/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2906">
-                  <caret line="411" column="14" lean-forward="true" selection-start-line="411" selection-start-column="14" selection-end-line="411" selection-end-column="14" />
+                <state relative-caret-position="195">
+                  <caret line="427" column="2" lean-forward="false" selection-start-line="427" selection-start-column="2" selection-end-line="427" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_modals.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_modals.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/style/modules/_modals.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="242">
@@ -76,11 +75,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_main_home.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_main_home.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="665">
-                  <caret line="759" column="26" lean-forward="true" selection-start-line="759" selection-start-column="26" selection-end-line="759" selection-end-column="26" />
+                <state relative-caret-position="275">
+                  <caret line="516" column="9" lean-forward="false" selection-start-line="516" selection-start-column="9" selection-end-line="516" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -103,6 +102,10 @@
       <find>paragraph</find>
       <find>catalogue_goods</find>
       <find>modal_registration</find>
+      <find>.signin_box</find>
+      <find>basket2</find>
+      <find>parag</find>
+      <find>#conteiner_section4_about</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,12 +119,12 @@
         <option value="$PROJECT_DIR$/app/templates/components/basket.jade" />
         <option value="$PROJECT_DIR$/app/templates/index.jade" />
         <option value="$PROJECT_DIR$/app/js/controllers/myCtrl.js" />
-        <option value="$PROJECT_DIR$/app/style/modules/_header.scss" />
         <option value="$PROJECT_DIR$/app/templates/components/main.jade" />
         <option value="$PROJECT_DIR$/app/style/modules/_catalogue.scss" />
-        <option value="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
-        <option value="$PROJECT_DIR$/app/templates/components/header.jade" />
         <option value="$PROJECT_DIR$/app/style/modules/_modals.scss" />
+        <option value="$PROJECT_DIR$/app/templates/components/header.jade" />
+        <option value="$PROJECT_DIR$/app/style/modules/_header.scss" />
+        <option value="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
       </list>
     </option>
   </component>
@@ -459,12 +462,12 @@
       <workItem from="1498922222135" duration="1112000" />
       <workItem from="1498923533500" duration="735000" />
       <workItem from="1499155027862" duration="31324000" />
-      <workItem from="1499269390659" duration="2559000" />
+      <workItem from="1499269390659" duration="3889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35730000" />
+    <option name="totallyTimeSpent" value="37060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +479,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2470238" sideWeight="0.5057283" order="2" side_tool="true" content_ui="tabs" />
@@ -685,42 +688,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
+    <entry file="file://$PROJECT_DIR$/app/style/modules/_modals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="759" column="26" lean-forward="true" selection-start-line="759" selection-start-column="26" selection-end-line="759" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/modules/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2906">
-          <caret line="411" column="14" lean-forward="true" selection-start-line="411" selection-start-column="14" selection-end-line="411" selection-end-column="14" />
+        <state relative-caret-position="242">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/header.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        <state relative-caret-position="830">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/modules/_modals.scss">
+    <entry file="file://$PROJECT_DIR$/app/style/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="195">
+          <caret line="427" column="2" lean-forward="false" selection-start-line="427" selection-start-column="2" selection-end-line="427" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="516" column="9" lean-forward="false" selection-start-line="516" selection-start-column="9" selection-end-line="516" selection-end-column="9" />
           <folding />
         </state>
       </provider>
