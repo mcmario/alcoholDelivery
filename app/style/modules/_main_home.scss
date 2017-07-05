@@ -3,7 +3,7 @@ img{
   height: auto;
 }
 #main_conteiner{
-  margin-top: -20px;
+  margin-top: -40px;
   display: flex;
   max-width: 1920px;
   height: auto;
@@ -59,7 +59,7 @@ img{
     justify-content: center;
     //width: 285px;
     img{
-      max-width: 100%;
+      max-width: 80%;
       height: auto;
     }
     @include pc_1024{
@@ -110,8 +110,8 @@ img{
     color:$color_white;
     text-transform: uppercase;
     font-size: 36pt;
-    width: 650px;
-    padding-top: 30px;
+    //width: 650px;
+    padding-top: 50px;
     @include pc_1024{
       padding-top: 100px;
     }

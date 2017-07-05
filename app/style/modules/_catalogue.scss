@@ -92,7 +92,7 @@
   }
   .catalogue.box{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding-top: 60px;
     @include  tablet{
       padding-top: 30px;
@@ -110,15 +110,15 @@
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
-      flex-basis: 500px;
+      width: 500px;
       padding-left: 30px;
     }
-    flex-basis: 330px;
     padding-left: 100px;
     margin-right: 20px;
     font-size: 22px;
     font-weight: 400;
     line-height: 24px;
+    width: 500px;
     .filter_hide{
       background: transparent;
       font-size: 17px;
@@ -215,7 +215,7 @@
 
 
   .catalogue_goods{
-   max-width: 1450px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;

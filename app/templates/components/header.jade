@@ -38,14 +38,15 @@ div#header_container
         //бургер
 div#mySidenav.sidenav
     img.closebtn(src='../img/cancel.png' ng-click='my.closeNav()')
-    a(href='#/') Головна
-    a(href='#/catalogue') Каталог
-    a(href='#/main.html#Shares') Акції
-    a(href='#main.html#delivery') Доставка
-    a(href='#footer.html#contacts') Контакти
+    a(href='#/' ng-click='my.closeNav()') Головна
+    a(href='#/catalogue' ng-click='my.closeNav()') Каталог
+    a(href='#/main.html#Shares' ng-click='my.closeNav()') Акції
+    a(href='#main.html#delivery' ng-click='my.closeNav()') Доставка
+    a(href='#footer.html#contacts' ng-click='my.closeNav()') Контакти
 
 //модалка рег. нового користувача
 div.modal_registration(ng-show='my.show_registration')
+    img.cancel2(src='../img/cancel2.png' ng-click='my.sign_up()')
     h2 Створити акаунт
     img(src='../img/shape-4.png')
     input.registr_input(type='text' placeholder='Ім’я' ng-model='my.user.name')
@@ -72,6 +73,7 @@ div.modal_registration(ng-show='my.show_registration')
 
 //модалка входу
 div.signin_box(ng-show='my.show_sign_in')
+    img.cancel(src='../img/cancel2.png' ng-click='my.sign_in()')
     h2 Створити акаунт
     img(src='../img/shape-4-copy.png')
     input.registr_input(type='text' placeholder='E-mail' ng-model='my.users.email ')
