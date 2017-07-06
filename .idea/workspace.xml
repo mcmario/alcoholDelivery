@@ -2,13 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a68784a-bce4-4455-9d14-3e58667043cc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/Thumbs.db" afterPath="$PROJECT_DIR$/app/img/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/facebook.png" afterPath="$PROJECT_DIR$/app/img/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/footer.jpg" afterPath="$PROJECT_DIR$/app/img/footer.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/google.png" afterPath="$PROJECT_DIR$/app/img/google.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/jameson.jpg" afterPath="$PROJECT_DIR$/app/img/jameson.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/vine.png" afterPath="$PROJECT_DIR$/app/img/vine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/vk.png" afterPath="$PROJECT_DIR$/app/img/vk.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/config.js" afterPath="$PROJECT_DIR$/app/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/myCtrl.js" afterPath="$PROJECT_DIR$/app/js/controllers/myCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/userServices/userServices.js" afterPath="$PROJECT_DIR$/app/js/userServices/userServices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/base/_base.scss" afterPath="$PROJECT_DIR$/app/style/base/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/base/_mixins.scss" afterPath="$PROJECT_DIR$/app/style/base/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/base/_variables.scss" afterPath="$PROJECT_DIR$/app/style/base/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/main.scss" afterPath="$PROJECT_DIR$/app/style/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_basket.scss" afterPath="$PROJECT_DIR$/app/style/modules/_basket.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_catalogue.scss" afterPath="$PROJECT_DIR$/app/style/modules/_catalogue.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_details.scss" afterPath="$PROJECT_DIR$/app/style/modules/_details.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_footer.scss" afterPath="$PROJECT_DIR$/app/style/modules/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_header.scss" afterPath="$PROJECT_DIR$/app/style/modules/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_main_home.scss" afterPath="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/modules/_modals.scss" afterPath="$PROJECT_DIR$/app/style/modules/_modals.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/basket.jade" afterPath="$PROJECT_DIR$/app/templates/components/basket.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/catalogue.jade" afterPath="$PROJECT_DIR$/app/templates/components/catalogue.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/details.jade" afterPath="$PROJECT_DIR$/app/templates/components/details.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/footer.jade" afterPath="$PROJECT_DIR$/app/templates/components/footer.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/header.jade" afterPath="$PROJECT_DIR$/app/templates/components/header.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/links.jade" afterPath="$PROJECT_DIR$/app/templates/components/links.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/main.jade" afterPath="$PROJECT_DIR$/app/templates/components/main.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.jade" afterPath="$PROJECT_DIR$/app/templates/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/views/basket.jade" afterPath="$PROJECT_DIR$/app/templates/views/basket.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/views/catalogue.jade" afterPath="$PROJECT_DIR$/app/templates/views/catalogue.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/views/details.jade" afterPath="$PROJECT_DIR$/app/templates/views/details.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/components/catalogue.html" afterPath="$PROJECT_DIR$/build/components/catalogue.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/components/header.html" afterPath="$PROJECT_DIR$/build/components/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/components/links.html" afterPath="$PROJECT_DIR$/build/components/links.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/components/main.html" afterPath="$PROJECT_DIR$/build/components/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.min.css" afterPath="$PROJECT_DIR$/build/css/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/views/catalogue.html" afterPath="$PROJECT_DIR$/build/views/catalogue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/views/home.html" afterPath="$PROJECT_DIR$/build/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,9 +72,12 @@
           <file leaf-file-name="main.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="884">
-                  <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="26" />
-                  <folding />
+                <state relative-caret-position="221">
+                  <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="27" />
+                  <folding>
+                    <marker date="1499277427895" expanded="true" signature="78:97" ph="..." />
+                    <marker date="1499277427895" expanded="true" signature="278:280" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -44,8 +85,28 @@
           <file leaf-file-name="header.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/components/header.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="830">
-                  <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="11" />
+                <state relative-caret-position="272">
+                  <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="catalogue.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/templates/components/catalogue.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="myCtrl.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/js/controllers/myCtrl.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="334">
+                  <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -58,8 +119,8 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/style/modules/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="427" column="2" lean-forward="false" selection-start-line="427" selection-start-column="2" selection-end-line="427" selection-end-column="2" />
+                <state relative-caret-position="212">
+                  <caret line="192" column="17" lean-forward="false" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +139,18 @@
           <file leaf-file-name="_main_home.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="516" column="9" lean-forward="false" selection-start-line="516" selection-start-column="9" selection-end-line="516" selection-end-column="9" />
+                <state relative-caret-position="161">
+                  <caret line="269" column="22" lean-forward="false" selection-start-line="269" selection-start-column="22" selection-end-line="269" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_catalogue.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/style/modules/_catalogue.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="212">
+                  <caret line="296" column="23" lean-forward="false" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -95,17 +166,29 @@
       <find>section3_content_drink1</find>
       <find>section3_footer.part2</find>
       <find>section3_content</find>
-      <find>search</find>
       <find>map</find>
       <find>catalogue_filter</find>
       <find>catalogue.box</find>
       <find>paragraph</find>
-      <find>catalogue_goods</find>
       <find>modal_registration</find>
-      <find>.signin_box</find>
-      <find>basket2</find>
       <find>parag</find>
       <find>#conteiner_section4_about</find>
+      <find>catalogue_goods_object(</find>
+      <find>catalogue_filter_sort_check</find>
+      <find>catalogue_filter_price2</find>
+      <find>basket2</find>
+      <find>.signin_box</find>
+      <find>catalogue_filter_volume</find>
+      <find>#basketcont</find>
+      <find>img</find>
+      <find>search</find>
+      <find>butt_lorem</find>
+      <find>header_navbar</find>
+      <find>conteiner_section4</find>
+      <find>catalogue_goods</find>
+      <find>section2_aside2_part1</find>
+      <find>section2_aside2_part2</find>
+      <find>#search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,15 +197,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/style/base/_mixins.scss" />
-        <option value="$PROJECT_DIR$/app/templates/components/catalogue.jade" />
         <option value="$PROJECT_DIR$/app/templates/components/basket.jade" />
         <option value="$PROJECT_DIR$/app/templates/index.jade" />
-        <option value="$PROJECT_DIR$/app/js/controllers/myCtrl.js" />
         <option value="$PROJECT_DIR$/app/templates/components/main.jade" />
-        <option value="$PROJECT_DIR$/app/style/modules/_catalogue.scss" />
         <option value="$PROJECT_DIR$/app/style/modules/_modals.scss" />
+        <option value="$PROJECT_DIR$/app/js/controllers/myCtrl.js" />
         <option value="$PROJECT_DIR$/app/templates/components/header.jade" />
+        <option value="$PROJECT_DIR$/app/templates/components/catalogue.jade" />
+        <option value="$PROJECT_DIR$/app/style/base/_mixins.scss" />
+        <option value="$PROJECT_DIR$/app/style/modules/_catalogue.scss" />
         <option value="$PROJECT_DIR$/app/style/modules/_header.scss" />
         <option value="$PROJECT_DIR$/app/style/modules/_main_home.scss" />
       </list>
@@ -462,12 +545,12 @@
       <workItem from="1498922222135" duration="1112000" />
       <workItem from="1498923533500" duration="735000" />
       <workItem from="1499155027862" duration="31324000" />
-      <workItem from="1499269390659" duration="3889000" />
+      <workItem from="1499269390659" duration="22552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37060000" />
+    <option name="totallyTimeSpent" value="55723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +562,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2470238" sideWeight="0.5057283" order="2" side_tool="true" content_ui="tabs" />
@@ -517,7 +600,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1499277427895" expanded="true" signature="78:97" ph="..." />
+            <marker date="1499277427895" expanded="true" signature="278:280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +666,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
+          <folding>
+            <marker date="1499277427895" expanded="true" signature="78:97" ph="..." />
+            <marker date="1499277427895" expanded="true" signature="278:280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +691,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499277427895" expanded="true" signature="78:97" ph="..." />
+            <marker date="1499277427895" expanded="true" signature="278:280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,14 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/base/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,29 +745,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/myCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2686">
-          <caret line="158" column="33" lean-forward="false" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/style/modules/_catalogue.scss">
+    <entry file="file://$PROJECT_DIR$/app/style/modules/_catButtons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="201" column="14" lean-forward="true" selection-start-line="201" selection-start-column="14" selection-end-line="201" selection-end-column="14" />
+        <state relative-caret-position="-967">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/catalogue.jade">
+    <entry file="file://$PROJECT_DIR$/app/style/modules/_carousele.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="158" column="12" lean-forward="true" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -696,34 +773,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/myCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/base/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/catalogue.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="140" column="12" lean-forward="true" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/modules/_catalogue.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="296" column="23" lean-forward="false" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/header.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="11" />
+        <state relative-caret-position="272">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/style/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="427" column="2" lean-forward="false" selection-start-line="427" selection-start-column="2" selection-end-line="427" selection-end-column="2" />
+        <state relative-caret-position="212">
+          <caret line="192" column="17" lean-forward="false" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/main.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <marker date="1499277427895" expanded="true" signature="78:97" ph="..." />
+            <marker date="1499277427895" expanded="true" signature="278:280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/style/modules/_main_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="516" column="9" lean-forward="false" selection-start-line="516" selection-start-column="9" selection-end-line="516" selection-end-column="9" />
+        <state relative-caret-position="161">
+          <caret line="269" column="22" lean-forward="false" selection-start-line="269" selection-start-column="22" selection-end-line="269" selection-end-column="22" />
           <folding />
         </state>
       </provider>

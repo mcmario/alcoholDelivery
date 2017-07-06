@@ -10,7 +10,7 @@
 6 silly lifecycle marian@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle marian@1.0.0~start: marian@1.0.0
 8 verbose lifecycle marian@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle marian@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\Alcohol  delivery\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Users\mreve\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\mreve\AppData\Local\Programs\Python\Python35\;C:\Users\mreve\AppData\Local\Microsoft\WindowsApps;C:\Users\mreve\AppData\Roaming\npm
+9 verbose lifecycle marian@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\Alcohol  delivery\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\mreve\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\mreve\AppData\Local\Programs\Python\Python35\;C:\Users\mreve\AppData\Local\Microsoft\WindowsApps;C:\Users\mreve\AppData\Roaming\npm
 10 verbose lifecycle marian@1.0.0~start: CWD: D:\Alcohol  delivery
 11 silly lifecycle marian@1.0.0~start: Args: [ '/d /s /c', 'gulp' ]
 12 silly lifecycle marian@1.0.0~start: Returned: code: 1  signal: null

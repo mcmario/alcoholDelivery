@@ -12,30 +12,30 @@ div#header_container
                 a(href="#/main.html#delivery" target="_self") Доставка
             li
                 a(href="#footer.html#contacts" target="_self") Контакти
-         div#nav_log
-             a.humburger(href='#' ng-click='my.openNav()')
+        div#nav_log
+            a.humburger(href='#' ng-click='my.openNav()')
                 img(src='../img/burger.png')
-            input#log(type='button' value='Увійти' ng-click='my.sign_in()')
-     div#sub_navbar
-         div#search
+        input#log(type='button' value='Увійти' ng-click='my.sign_in()')
+    div#sub_navbar
+        div#search
             div#searhimg
                 input#nav_search(type='text' placeholder='ПОШУК' ng-model='my.search')
                 input#nav_search2(type='text'  ng-model='my.search')
-         div#place
+        div#place
             div#placecont
                 div#placeimg
-                p.sub_nav_text Ми знаходимось тут
+                p.sub_nav_text Ми тут
                 input.triangleimg(type='button' ng-click='my.open_map()')
-         div#basket
-                div#basketcont
-                    a(href='#/basket' ng-click='my.basket()')
-                        div#basketimg
-                    p.sub_nav_text {{my.CountGood}}
-                    input.triangleimg(type='button' ng-click='my.open_basket()')
+        div#basket
+            div#basketcont
+                a(href='#/basket' ng-click='my.basket()')
+                    div#basketimg
+                p.sub_nav_text {{my.CountGood}}
+                input.triangleimg(type='button' ng-click='my.open_basket()')
 
 
 
-        //бургер
+    //бургер
 div#mySidenav.sidenav
     img.closebtn(src='../img/cancel.png' ng-click='my.closeNav()')
     a(href='#/' ng-click='my.closeNav()') Головна
@@ -53,11 +53,11 @@ div.modal_registration(ng-show='my.show_registration')
     input.registr_input(type='text' placeholder='Прізвище' ng-model='my.user.lastname')
     div.selected-field
         select.registation_select(ng-model='my.user.selectdays' ng-options='x for x in my.days')
-            option(value='') дд
+            option(value='' disabled selected) дд
         select.registation_select(ng-model='my.user.selectmonth' ng-options='x for x in my.month')
-            option(value='') мм
+            option(value='' disabled selected) мм
         select.registation_select(ng-model='my.user.selectyear' ng-options='x for x in my.year')
-            option(value='') рррр
+            option(value='' disabled selected) рррр
     input.registr_input(type='text' placeholder='E-mail' ng-model='my.user.email')
     input.registr_input(type='password' placeholder='password' ng-model='my.user.password')
     label

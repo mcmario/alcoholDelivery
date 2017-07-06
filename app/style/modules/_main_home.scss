@@ -78,6 +78,7 @@ img{
     font-size: 18px;
     font-weight: bold;
     line-height: 36px;
+
     text-transform: uppercase;
     color: #feffff;
     width: 289px;
@@ -94,7 +95,7 @@ img{
     @include tablet{
       display: block;
       margin-top: 550px;
-      margin-left: -600px;
+      margin-left: -350px;
     }
   #par1{
     flex-grow: 5;
@@ -126,8 +127,8 @@ img{
       font-size: 30px;
       font-weight: 700;
       line-height: 36px;
-      padding-left: 400px;
-      padding-top: 50px;
+      padding-left: 350px;
+      padding-top: 80px;
     }
 
   }
@@ -158,7 +159,7 @@ img{
     display: flex;
     justify-content: center;
     margin-left: 50px;
-    margin-right: 50px;
+    //margin-right: 50px;
     //padding-bottom: 100px;
   }
   #section2_aside1{
@@ -176,20 +177,23 @@ img{
   #section2_aside1_part1{
     //background: url('../img/breezer.jpg') no-repeat center;
     //flex-grow: 5;
+    padding-left: 50px;
     @include mobile{
       margin-left: 10px;
+      padding-left: 0px;
       img{
         width: 100%;
       }
     }
     @include  tablet{
+      padding-left: 0px;
       margin-left: 10px;
       img{
         width: 100%;
       }
     }
     @include pc_1024{
-      margin-left: -50px;
+      padding-left: 10px;
       img{
         max-width: 110%;
         height: auto;
@@ -203,7 +207,7 @@ img{
   #section2_aside1_part2{
    // flex-grow: 1;
     //max-width: 700px;
-    margin-left: 50px;
+    margin-left: 150px;
     @include tablet{
        margin-left: 10px;
      }
@@ -263,7 +267,8 @@ img{
     display: flex;
     flex-direction: column;
     margin-top: 90px;
-    margin-left: 150px;
+    padding-left: 10px;
+    //margin-left: 150px;
     @include mobile{
       width: 100%;
       margin-top: 40px;
@@ -279,26 +284,31 @@ img{
   #section2_aside2_part1 {
     //flex-grow: 1;
     //max-width: 640px;
+    width: 70%;
 
   }
   #section2_aside2_part2{
+
     @include mobile{
       margin-right: 10px;
+      width: 100%;
+      img{
+        width: 97%;
+      }
+    }
+    @include  tablet{
+      width: 100%;
+      margin-left: 0px;
       img{
         width: 100%;
       }
     }
-    @include  tablet{
-      margin-left: 0px;
-      img{
-        width: 95%;
-      }
-    }
     @include pc_1024{
-      width: 120%;
+      width: 90%;
     }
     margin-bottom: 75px;
-    margin-right: -20px;
+    width: 90%;
+    //margin-right: -20px;
   }
   #section2_aside2_part1 h1{
     font-weight: bold;
@@ -514,22 +524,23 @@ img{
     padding-bottom: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 100px;
+    //margin-right: 100px;
 
     justify-content: center;
     @include  mobile{
       background: url('../img/about3.png') no-repeat center;
-      background-size: 80%;
+      background-size: 90%;
       height: 513px;
-      margin-left: 30px;
-      margin-right: 10px;
+      margin-left: 0px;
       margin-top: -220px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
     }
     @include tablet{
       background: url('../img/about3.png') no-repeat center;
       background-size: 80%;
       height: 513px;
-      margin-left: 50px;
+      margin-left: 0px;
       margin-right: 150px;
     }
     @include pc_1024{
@@ -567,29 +578,32 @@ img{
       }
 
       @include tablet{
+
         margin-left: 50px;
         margin-top: -50px;
         padding: 20px;
         flex-basis: 100%;
         width: 520px;
-        height: 359px;
+        //height: 359px;
       }
       .mint{
-        width: 316px;
+        width: 336px;
         height: 243px;
 
         display: none;
         @include mobile{
+          width: 240px;
+          height: 200px;
           display: block;
           position: relative;
-          margin-left: 270px;
-          margin-top: 270px;
+          margin-left: 300px;
+          margin-top: 290px;
         }
         @include tablet{
           display: block;
           position: relative;
           margin-left: 250px;
-          margin-top: 220px;
+          margin-top: 270px;
 
         }
       }

@@ -1,0 +1,72 @@
+.category {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none !important;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  width: 60%;
+}
+.catalog_img1{
+  padding-left: 4.9%;
+  width:90%;
+  margin-bottom:-5px;
+
+  @include tablet{
+    padding-left: 30px;
+  }}
+.category input {
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  list-style-type: none !important;
+}
+
+.category label {
+  background: #0b1013;
+  list-style-type: none !important;
+  font-size: 16px;
+  line-height: 40px;
+  height: 50px;
+  position: relative;
+  flex: 1 0;
+  border-left: 1px solid #515658;
+  border-right:1px solid #515658 ;
+
+  width: 50px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+
+  cursor: pointer;
+
+}
+
+.category label:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+
+.category input:hover + label {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.category label:first-of-type {
+  z-index: 4;
+}
+
+.category input:checked + label {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;;
+  z-index: 6;
+}

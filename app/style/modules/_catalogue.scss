@@ -4,6 +4,8 @@
   background-color:#0b1013;
   max-width: 1920px;
   padding-bottom: 50px;
+  position: absolute;
+  z-index:5;
   //height: 3145px;
   .catalog_img1{
     padding-left: 100px;
@@ -146,7 +148,7 @@
     }
 
     .catalogue_filter_sort{
-      height: 185px;
+      //height: 185px;
       display: flex;
       flex-direction: column;
       border-right: 1px solid #3c3c3c;
@@ -163,12 +165,32 @@
       .catalogue_filter_sort_check{
         display: flex;
         flex-direction: column;
+        transition: 0.5s;
+        overflow:hidden;
+        padding-bottom: 20px;
 
       }
     }
-
+#show{
+  display: none;
+}
+    #show2{
+      display: none;
+    }
+    #show3{
+      display: none;
+    }
+    #show4{
+      display: none;
+    }
+    #show5{
+      display: none;
+    }
+    #show6{
+      display: none;
+    }
     .catalogue_filter_pice{
-      height: 175px;
+      //height: 175px;
       border-right: 1px solid #3c3c3c;
       border-bottom: 1px solid #3c3c3c;
     }
@@ -176,16 +198,41 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      transition: 0.5s;
+      overflow:hidden;
+      padding-bottom: 20px;
       p{
         flex-basis: 70%;
       }
     }
-
-
+    .catalogue_filter_price2{
+      transition: 0.5s;
+      overflow:hidden;
+      //padding-bottom: 20px;
+    }
+    #myHide3{
+      transition: 0.5s;
+      overflow:hidden;
+    }
+    #myHide4{
+       transition: 0.5s;
+       overflow:hidden;
+       height: auto;
+     }
+    #myHide5{
+      transition: 0.5s;
+      overflow:hidden;
+      height: auto;
+    }
+    #myHide6{
+      transition: 0.5s;
+      overflow:hidden;
+      height: auto;
+    }
     .catalogue_filter_volume{
       border-right: 1px solid #3c3c3c;
       border-bottom: 1px solid #3c3c3c;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
     }
     .catalogue_filter_volume_part1{
       display: flex;
@@ -207,7 +254,7 @@
     }
 
 
-    }
+  }
 
 
 
@@ -244,11 +291,22 @@
         padding-top: 5px;
       }
       @include tablet{
-        width: 145px;
-        height: 282px;
-        padding-top: 20px;
-        margin-right: 20px;
+        width: 135px;
+        height: 232px;
+        padding-top: 10px;
+        margin-right: 10px;
 
+      }
+      .goods_img{
+        @include tablet{
+          width: 50px;
+          height: 108px;
+        }
+        @include mobile{
+          width: 50px;
+          height: 82px;
+          margin-left: -15px;
+        }
       }
 
       width: 260px;

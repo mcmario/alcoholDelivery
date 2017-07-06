@@ -1,7 +1,7 @@
 div.catalogue_conteiner
     h2 Категорії
     img.catalog_img1(src='../img/shape-7.png')
-    ul
+    //ul
         li
             a(href='#') Горілка
             img.list_img(src='../img/shape-72.png')
@@ -22,7 +22,31 @@ div.catalogue_conteiner
             img.list_img(src='../img/shape-72.png')
         li
             a(href='#') Абсент
-            img.list_img(src='../img/shape-72.png')
+            //img.list_img(src='../img/shape-72.png')
+    div.category
+
+        input#category-02.category-selector-2(type='radio', name='radio-set' checked=true ng-click='my.getBeer()')
+        label.category-label-2(for='category-02') Пиво
+
+        input#category-03.category-selector-3(type='radio', name='radio-set'  )
+        label.category-label-3(for='category-03' ng-click='my.getWine()') Вино
+
+        input#category-04.category-selector-4(type='radio', name='radio-set'  ng-click='his.dateFilter="-04-"')
+        label.category-label-4(for='category-04') Горілка
+
+        input#category-05.category-selector-5(type='radio', name='radio-set'  ng-click='his.dateFilter="-05-"')
+        label.category-label-5(for='category-05') віскі
+
+        input#category-06.category-selector-6(type='radio', name='radio-set'  ng-click='his.dateFilter="-06-"')
+        label.category-label-6(for='category-06') ром
+
+        input#category-07.category-selector-7(type='radio', name='radio-set'  ng-click='his.dateFilter="-07-"')
+        label.category-label-6(for='category-07') текіла
+
+        input#category-08.category-selector-7(type='radio', name='radio-set'  ng-click='his.dateFilter="-07-"')
+        label.category-label-6(for='category-08') інше
+
+
     div.catalogue.box
         div.catalogue_filter
             div.catalogue_filter_head
@@ -30,140 +54,99 @@ div.catalogue_conteiner
                 p Фільтрація
             div.catalogue_filter_sort
                 div.catalogue_filter_sort_part1
-                    img(src='../img/sort.png')
+                    img(src='../img/sort.png' )
                     p Сортувати
-                    input.filter_hide(type='button' value='Hide')
-                div.catalogue_filter_sort_check
+                    input#hide.filter_hide(type='button' value='Hide' ng-click='my.show_hide()' )
+                    input#show.filter_hide(type='button' value='Show' ng-click='my.close_show_hide()' )
+                div#myHide.catalogue_filter_sort_check
                     form.ckeck
+                        //input.radiobox(type='radio' name='sort3' checked='checked' ng-click='my.orderByMe("none")' )
+                        //br
                         label
-                            input.radiobox(type='radio' name='sort3' ng-click='my.orderByMe("name")')
+                            input.radiobox(type='radio' name='sort3' ng-click='my.sortGoods("name")')
                             |  A-Z
                         br
                         label
-                            input.radiobox(type='radio' name='sort3'  ng-click='my.orderByMe("price")')
+                            input.radiobox(type='radio' name='sort3'  ng-click='my.sortGoods("price")')
                             |  По ціні від 0-9
                         br
                         label
-                            input.radiobox(type='radio' name='sort3'  ng-click='my.orderByMe("-price")')
+                            input.radiobox(type='radio' name='sort3'  ng-click='my.sortGoods("-price")')
                             |  По ціні від 9-0
             div.catalogue_filter_pice
                 div.catalogue_filter_price_part1
                     img(src='../img/wallet.png')
                     p Ціна
-                    input.filter_hide(type='button', value='Hide')
+                    input#hide2.filter_hide(type='button', value='Hide' ng-click='my.hide()')
+                    input#show2.filter_hide(type='button', value='Show' ng-click='my.show()')
+                div#myHide2.catalogue_filter_price2
+                    span  Від {{my.lower_price_bound}} до {{my.upper_price_bound}}
+                    slider(floor='{{my.lp}}', ceiling='{{my.hp}}', ng-model-low='my.lower_price_bound', ng-model-high='my.upper_price_bound')
+
+
+
+
+
             div.catalogue_filter_volume
                 div.catalogue_filter_volume_part1
                     img(src='../img/measuring-cup.png')
                     p Об’єм
-                    input.filter_hide(type='button' value='Hide')
-                form.ckeck
-                    label
-                        input(type='checkbox', ng-model='my.volume1')
-                        | 0.25
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.volume2')
-                        | 0.33
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.volume3')
-                        | 0.5
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.volume4')
-                        | 0.75
-                    br
+                    input#hide3.filter_hide(type='button', value='Hide' ng-click='my.hide2()')
+                    input#show3.filter_hide(type='button', value='Show' ng-click='my.show2()')
+                form#myHide3.ckeck()
+                    label(ng-repeat='volume in my.volume| orderBy:volume')
+                        input(type='checkbox' ng-click='my.includeVolume(volume)')
+                        |  {{volume/1000}}
+                        br
 
+            //filter by
             div.catalogue_filter_volume
                 div.catalogue_filter_volume_part1
                     img(src='../img/thermometer.png')
                     p Міцність
-                    input.filter_hide(type='button' value='Hide')
-                form.ckeck
-                    label
-                        input(type='checkbox', ng-model='my.strength1')
-                        | 0
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.strength2')
-                        | 0.5
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.strength3')
-                        | 2
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.strength4')
-                        | 3
+                    input#hide4.filter_hide(type='button', value='Hide' ng-click='my.hide3()')
+                    input#show4.filter_hide(type='button', value='Show' ng-click='my.show3()')
+                form#myHide4.ckeck
+                    label(ng-repeat='strength in my.strength| orderBy:strength')
+                        input(type='checkbox' ng-click='my.includeStrength(strength)' )
+                        |  {{strength}}
+                        br
+
             div.catalogue_filter_volume
                 div.catalogue_filter_volume_part1
                     img(src='../img/real-estate.png')
                     p Бренд
-                    input.filter_hide(type='button' value='Hide')
-                form.ckeck
-                    label
-                        input(type='checkbox', ng-model='my.brand1')
-                        | Hoegaarden
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.brand2')
-                        | Krombacher
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.brand3')
-                        | Leffe
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.brand4')
-                        | Lowenbrau
-                    br
+                    input#hide5.filter_hide(type='button', value='Hide' ng-click='my.hide4()')
+                    input#show5.filter_hide(type='button', value='Show' ng-click='my.show4()')
+                form#myHide5.ckeck
+                    label(ng-repeat='brand in my.brand| orderBy:brand')
+                        input(type='checkbox', ng-click='my.includeBrand(brand)')
+                        |  {{brand}}
+                        br
+
             div.catalogue_filter_volume
                 div.catalogue_filter_volume_part1
                     img(src='../img/flag.png')
                     p Країна
-                    input.filter_hide(type='button' value='Hide')
-                form.ckeck
-                    label
-                        input(type='checkbox', ng-model='my.country1')
-                        | Бельгія
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.country2')
-                        | Великобританія
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.country3')
-                        | Ірландія
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.country4')
-                        | Мексика
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.country5')
-                        | Німеччина
-                    br
-                    br
-                    label
-                        input(type='checkbox', ng-model='my.country6')
-                        | Чехія
-                    br
+                    input#hide6.filter_hide(type='button', value='Hide' ng-click='my.hide5()')
+                    input#show6.filter_hide(type='button', value='Show' ng-click='my.show5()')
+                form#myHide6.ckeck
+                    label(ng-repeat='country in my.state')
+                        input(type='checkbox', ng-click='my.includeCountry(country)')
+                        |  {{country}}
+                        br
+
+
+
         div.catalogue_goods
-            div.catalogue_goods_object(ng-repeat='goods in my.goods| filter:my.myfilter | orderBy:my.myOrderBy | startFrom: my.startingItem()| limitTo: my.itemsPerPage' ng-click='my.detail_of_goods(goods)'  )
+            div.catalogue_goods_object(ng-repeat='goods in my.goods| filter:my.volumeFilter|filter:my.brandFilter|filter:my.countryFilter|filter:my.strengthFilter|filter:my.priceRange|orderBy:my.myOrderBy | startFrom: my.startingItem()| limitTo: my.itemsPerPage' ng-click='my.detail_of_goods(goods)'  )
                 a(href='#/details')
-                    img(ng-src='{{goods.image}}')
+                    img.goods_img(ng-src='{{goods.image}}')
                 h4 {{goods.name}}
                 p {{goods.volume}}ml
                 p.price_goods {{goods.price}} грн
                 input.to_basket(type='button' value='В корзину' ng-click='my.ByGoods(goods)' ng-model='my.CountGood')
+
     div.catalogue_goods_paginnation
         input(type='button' value='назад' ng-disabled='my.firstPage()' ng-click='my.pageBack()')
         span {{my.currentPage+1}} з {{my.numberOfPages()}}
