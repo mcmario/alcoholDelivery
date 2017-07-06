@@ -272,7 +272,7 @@ img{
     @include mobile{
       width: 100%;
       margin-top: 40px;
-      margin-left: 10px;
+      //margin-left: 10px;
     }
     @include pc_1024{
       margin-left: 100px;
@@ -285,19 +285,22 @@ img{
     //flex-grow: 1;
     //max-width: 640px;
     width: 70%;
+    @include mobile{
+      width: 100%;
+    }
 
   }
   #section2_aside2_part2{
 
     @include mobile{
       margin-right: 10px;
-      width: 100%;
+
       img{
-        width: 97%;
+        width: 100%;
       }
     }
     @include  tablet{
-      width: 100%;
+      width: 70%;
       margin-left: 0px;
       img{
         width: 100%;

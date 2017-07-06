@@ -19,6 +19,9 @@ body {
   font-size: 15pt;
   @include mobile{
     padding-top: 0px;
+    justify-content: center;
+    padding-bottom: 20px;
+    height:350px;
   }
   @include tablet{
     font-size: 14px;
@@ -117,7 +120,12 @@ body {
     justify-content:flex-start;
     flex-direction: column;
     @include mobile{
-      display: none;
+      display: block;
+      padding: 0;
+      padding-left: 10%;
+      justify-content: center;
+      width: 80%;
+
     }
     @include tablet{
       .footer_section1_logo2{
@@ -135,6 +143,12 @@ body {
       font-weight: bold;
       line-height: 24px;
       text-transform: uppercase;
+      @include mobile{
+        padding-top: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+      }
       @include tablet{
         padding-top: 20px;
         line-height: 36px;
@@ -147,6 +161,10 @@ body {
       p{
         font-size: 20px;
         line-height: 26px;
+        @include mobile{
+          font-size: 14px;
+          line-height: 18px;
+        }
         @include tablet{
           font-size: 14px;
           line-height: 22px;
@@ -158,11 +176,17 @@ body {
       display: flex;
       align-items: center;
       justify-content: flex-start;
+
       p{
         padding-left: 30px;
         font-size: 20px;
         font-weight: 400;
         line-height: 33px;
+        @include mobile{
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 18px;
+        }
         @include tablet{
           font-size: 14px;
           font-weight: 400;
@@ -180,6 +204,7 @@ body {
     justify-content: flex-start;
     padding-right: 50px;
     @include mobile{
+      display: none;
       padding: 0;
       justify-content: center;
       width: 90%;

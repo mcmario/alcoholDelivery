@@ -474,17 +474,17 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 20px;
-  width: 33%;
+  width: 29%;
   height: auto;
   @include mobile{
-    max-width: 100%;
+    width: 92%;
     position: absolute;
-    left: 5%;
+    left: 1%;
   }
   @include tablet{
       max-width: 100%;
       position: absolute;
-      left: 64.5%;
+      left: 66.5%;
   }
   display: flex;
   justify-content: flex-start;
